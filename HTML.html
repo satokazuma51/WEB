@@ -163,6 +163,7 @@
     document.getElementById("colorBtn").addEventListener("click", function() {
       const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1"];
       document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.color = colors[Math.floor(Math.random() * colors.length)];
     });
 
     function updateTime() {
